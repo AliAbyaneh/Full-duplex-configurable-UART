@@ -9,3 +9,12 @@ Then, you can play the recieved audio file which is filtered. Note that you must
 ### Description
 
 UART implementation, with 1 stop bit and without parity bit. The baud rate is 115200 Hz, but you can change it by changing the baudrate parameter in TopController.v.
+
+The state machine of transmitter : 
+
+![alt text](TX.jpg)
+
+The state machine of reciever : 
+
+![alt text](RX.jpg)
+
